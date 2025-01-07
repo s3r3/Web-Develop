@@ -1,3 +1,4 @@
+// Navbar.tsx
 import React, { useState } from "react";
 import { MdOutlineNightlight,  } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";

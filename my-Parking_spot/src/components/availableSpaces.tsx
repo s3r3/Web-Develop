@@ -1,5 +1,5 @@
 // src/availableSpaces.tsx
-import React from 'react';
+import React,{useCallback} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { increment, decrement, setCount } from '../features/availableSpacesSlice';
 import CountUp from 'react-countup';
@@ -30,4 +30,4 @@ const Spaces = () => {
   );
 };
 
-export default Spaces;
+export default React.memo(Spaces);
